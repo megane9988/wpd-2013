@@ -266,7 +266,7 @@ function wp_d_2013_scripts() {
     wp_enqueue_style( 'wp_d_2013-style', 
     get_stylesheet_uri() . '', 
     array(), 
-    '20130626_2', 
+    '20130717_1', 
     'all' );
     wp_enqueue_style( 'genericons_css', 
     get_template_directory_uri() . '/assets/css/genericons.css', 
