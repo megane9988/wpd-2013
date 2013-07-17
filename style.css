@@ -310,6 +310,7 @@ object {
 ----------------------------------------------- */
 .social .fb-like>span {
 	width: auto !important;
+	min-width: 70px;
 }
 .social .fb_iframe_widget_lift {
 	position: relative !important;
