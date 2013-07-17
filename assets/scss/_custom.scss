@@ -1,0 +1,355 @@
+body{
+  background-color: #f2f2f2;
+  color:#6b6b6b;
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  color:#222;
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+  font-weight: 400; 
+}
+.single article,
+#comments{
+  h1,h2,h3,{
+    font-size: 1.4375em;
+    margin-bottom: 20px;
+  }
+  h4,h5{
+    font-size: 1.125em;
+  }
+  h2, .h2 {
+  border-left: 5px solid;
+  padding: 10px;
+  }
+  h3{
+  border-bottom: 1px dashed #ccc;
+  background-color: #eaeaea;
+  padding: 10px;
+  }
+  h1.entry-title {
+    font-size: 1.563em; 
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 20px;
+  }
+  ul,ol{
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+  li{
+    line-height: 1;
+    margin-bottom: 20px; 
+  }
+  ul ul,
+  ul ul ul,
+  ul ul ul ul,
+  ol ol,
+  ol ol ol,
+  ol ol ol ol,
+  ul ol,
+  ol ul{
+    padding-top: 18px;
+  }
+  p{
+    margin-bottom: 30px;
+  }
+  strong{
+    color:#222;
+  }
+  code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-weight: 400;
+  color: #222;
+  font-size:0.875em
+  }
+  pre {
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+  }
+  .page-links{
+    clear:both;
+    margin: 20px 0;
+     a{
+        padding: 10px;
+        background-color: #f2f2f2; 
+      }
+  }
+  footer{
+  border-top: 2px solid #f2f2f2;
+  padding-top: 20px;
+  clear:both;
+  } 
+}
+a{
+  color: #145470; 
+}
+.site-header{ 
+  background-color: #FFF; 
+  margin-bottom: 20px;
+}
+h1.site-title{
+  margin-bottom: 0;
+}
+#site-navigation{
+  background-color: #2c3e50;
+}
+.menu-toggle{
+  text-align: right;
+  padding:15px 20px 0 0;
+  margin: 0;
+  color: #fff;
+  .genericon-menu{
+    font-size: 0.725em; 
+  }
+}
+
+.prime-banner{
+  text-align: center;
+  margin-bottom: 10px;
+}
+article.row.post{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #F0F0F0; 
+}
+article.row.post h4{
+  font-weight: 400; 
+  }
+.post-meta p,
+.post-date time{
+  margin-bottom: 5px;
+  font-size:0.75em;
+}
+.post-meta span.author{
+  background-color: #fff;
+  color:red;
+  padding: 2px 10px; 
+  margin-right: 10px;
+  border: 1px solid #eee; 
+  border-radius: 2px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+}
+.post-meta span.purple{
+  color:purple;
+}
+.post-meta span.green{
+  color:green;
+}
+.post-meta span.purple{
+  color:purple;
+}
+.thumbnail{
+  padding-right: 0;
+}
+.contents{
+}
+.contents .prime{
+  background-color: #fff;
+  padding: 0;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-box-shadow: 0 2px #cfd3d7;
+  -moz-box-shadow: 0 2px #cfd3d7;
+  box-shadow: 0 2px #cfd3d7;
+}
+#primary{
+  margin: 20px;
+}
+.prime-banner{
+  background-color: #f2f2f2;
+  padding-bottom: 20px;
+}
+.prime-banner-bottom{
+  padding-top: 20px;
+}
+.pagination li a {
+  padding: 0.3em 0.6em 0.3em;
+}
+.pagination li.current a {
+  background: #2c3e50;
+}
+.pagination li.current a:hover {
+  background-color: #34495e;
+}
+.side-nav li a {
+  color: #145470; 
+}
+.single article .sbver ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sbver li {
+  list-style-type: none;
+  float: left;
+  margin-right: 2px;
+}
+.sbver,
+.entry-content{
+  clear: both;
+}
+.page .entry-title,
+.page-title{
+  font-size: 1.563em; 
+  border-bottom: 1px solid #ccc; 
+  padding-bottom: 20px;
+}
+
+#secondary{
+  margin-bottom: 20px;
+}
+  #secondary .widget{
+    margin-bottom: 50px; 
+  }
+#secondary h5{
+  margin: 0;
+  padding: 10px;
+  font-weight: 400; 
+  border-bottom: 1px solid #ccc;
+  -webkit-box-shadow: 0 1px #fff;
+  -moz-box-shadow: 0 1px #fff;
+}
+#secondary .side-nav {
+  padding: 0;
+}
+#secondary .side-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#secondary .side-nav li {
+  margin: 0;
+  font-size: 0.875em;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-shadow: 0 1px #fff;
+  -moz-box-shadow: 0 1px #fff;
+  box-shadow: 0 1px #fff;
+}
+#secondary .side-nav li img {
+  float: left;
+  margin-right: 10px;
+}
+#secondary .side-nav li:hover {
+  background-color: #fff;
+}
+#secondary .side-nav li a{
+color: #8b8b8b;
+}
+#secondary .side-nav li a:hover{
+  text-decoration: underline;
+}
+#site-footer{
+  background-color: #fff; 
+  padding: 20px 0;
+  -webkit-box-shadow: 0 -2px #cfd3d7;
+  -moz-box-shadow: 0 -2px #cfd3d7;
+  box-shadow: 0 -2px #cfd3d7;
+}
+#site-footer h5{
+  font-weight: 400; 
+}
+
+#site-footer .widget {
+  padding: 0;
+}
+#site-footer .widget ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#site-footer .widget li {
+  margin: 0;
+  font-size: 0.875em;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-shadow: 0 1px #fff;
+  -moz-box-shadow: 0 1px #fff;
+  box-shadow: 0 1px #fff;
+}
+#site-footer .widget li img {
+  float: left;
+  margin-right: 10px;
+}
+#site-footer .widget li:hover {
+  background-color: #fff;
+}
+#site-footer .widget li a{
+color: #8b8b8b;
+}
+#site-footer .widget li a:hover{
+  text-decoration: underline;
+}
+
+
+
+.side-ad{
+  text-align: center;
+  margin: 20px -10px;
+}
+.copyright{
+  text-align: center;
+  border-top: 1px solid #F0F0F0;
+  padding-top: 20px; 
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; 
+}
+.prime-banner-bottom{
+  margin: 0 -20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .site-header {
+  margin-bottom: 0;
+  }
+  article.row.post{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  } 
+  #primary {
+    margin: 0.626em;
+  }
+  .prime-banner{
+    background-color: #f2f2f2;
+    padding-bottom: 0;
+  } 
+
+.prime-banner-bottom{
+  margin: 0 -10px;
+  text-align: center;
+}
+  .single article{
+    h1,h2,h3,h4,h5,h6,{
+      font-size:1.125em;
+    }
+  }
+  article.row.post h4.entry-title{
+  font-size:1em;
+  font-weight: bold; 
+  }
+  .post-meta p{
+    font-size:0.75em;
+  }
+  #secondary h5,
+  #site-footer h5{
+    font-size:1em;
+  }
+  #secondary .widget{
+    margin-bottom: 20px; 
+  }  
+  .fixed {
+    position: static;
+  }
+}
