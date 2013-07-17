@@ -305,3 +305,13 @@ object {
 .infinity-end.neverending .site-footer {
 	display: block;
 }
+
+/* =Social Button 2013.07.17 add
+----------------------------------------------- */
+.social .fb-like>span {
+	width: auto !important;
+}
+.social .fb_iframe_widget_lift {
+	position: relative !important;
+	width: 450px;
+}
