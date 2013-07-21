@@ -45,7 +45,7 @@
     <div class="row">
       <div class="large-1 small-3 columns logo">
         <a href="http://wp-d.org">
-        <img src="http://wp-d.org/wp-content/themes/wp-d-2013/assets/img/logo.png" alt="wp-d" title="wp-d" />
+        <img src="http://wp-d.org/wp-content/themes/wpd-2013/assets/img/logo.png" alt="wp-d" title="wp-d" />
         </a>
       </div>
       <div class="large-5 small-8 columns">
