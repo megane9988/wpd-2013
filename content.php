@@ -32,14 +32,13 @@
 							if ( $categories_list && wp_d_2013_categorized_blog() ) :
 						?>						
 							<span>
-								<?php
-									$cat = get_the_category();
-									$tmparray = array();
-									if( count( $cat ) > 1 ) {
-										foreach( $cat as $c ) $tmparray[] = $c->cat_name;
-										echo implode( ', ', $tmparray );
-									}
-								?>
+				        <?php
+				          $cat = get_the_category();
+				          $tmparray = array();
+				            foreach( $cat as $c ) 
+				              $tmparray[] = $c->cat_name;
+				              echo implode( ', ', $tmparray );
+				        ?>
 							</span>
 						<?php endif; // End if categories ?>
 
